@@ -9,7 +9,8 @@ pipeline {
         }
         stage('Run Python Script') {
             steps {
-                sh 'python3 hello.py'
+                bat '"D:\\Anaconda\\python.exe" hello.py'
+               
             }
         }
     }
